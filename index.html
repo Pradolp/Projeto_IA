@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <h2>Questionário de Saúde</h2>
+        <form>
+            <div class="inputs-text">
+                <div class="idade">
+                    <label for="idade">Idade: </label>
+                    <input type="text" id="idade" placeholder="Informe a sua idade">
+                </div>
+
+                <div class="temperatura">
+                    <label for="temp">Temperatura: </label>
+                    <input type="text" id="temp" placeholder="Informe a sua Temperatura">
+                </div>
+            </div>
+
+            <div class="inputs-mark">
+                <div class="inputs-radio">
+                    <label for="amigdalas">Você já teve Amígdalas inchadas?</label>
+                    <div class="inputs-radio-value">
+                        <input type="radio" id="amigdalas-sim" name="amigdalas" value="Sim">
+                        <label for="amigdalas-sim" class="label-valor">Sim</label>
+                        <input type="radio" id="amigdalas-nao" name="amigdalas" value="Não">
+                        <label for="amigdalas-nao" class="label-valor">Não</label>
+                    </div>
+                </div>
+
+                <div class="inputs-radio">
+                    <label for="dor-de-cabeca">Você já teve dor de cabeça?</label>
+                    <div class="inputs-radio-value">
+                        <input type="radio" id="dor-cabeca-sim" name="dor-de-cabeca" value="Sim">
+                        <label for="dor-cabeca-sim" class="label-valor">Sim</label>
+                        <input type="radio" id="dor-cabeca-nao" name="dor-de-cabeca" value="Não">
+                        <label for="dor-cabeca-nao" class="label-valor">Não</label>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+        <button type="submit">Enviar</button>
+
+    </div>
+
 </body>
+
 </html>

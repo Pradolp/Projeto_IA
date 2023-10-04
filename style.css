@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+.label-valor{
+    padding: 10px;
+    padding-left: 0;
+}
+
+.inputs-radio{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.inputs-radio label{
+    margin-bottom: 10px;
+}
+
+.inputs-text{
+    display: flex;
+    gap: 30px;
+}
+
+.inputs-text label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputs-mark{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
