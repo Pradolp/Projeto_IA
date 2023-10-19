@@ -69,6 +69,7 @@ form input {
     display: flex;
     gap: 30px;
     margin: 20px 0;
+
 }
 
 img {
@@ -89,3 +90,4 @@ img {
     width: 200px;
     cursor: pointer;
 }
+
